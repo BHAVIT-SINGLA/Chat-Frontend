@@ -9,8 +9,9 @@ export default function Welcome() {
     );
     if(data)
     {
+    
     setUserName(
-       data.userName
+       data.username
     );
     }
   }, []);
